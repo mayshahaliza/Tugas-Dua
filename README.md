@@ -1,3 +1,4 @@
+Maysha Haliza K. - PBP C - NPM 2106751202 - Tugas 2
 Link tugas heroku: https://mayshatugas2.herokuapp.com/
 
 1. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html;
