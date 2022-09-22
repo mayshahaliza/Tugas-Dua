@@ -1,1 +1,1 @@
-web: gunicorn project_django.wsgi --log-file -
+web: gunicorn mywatchlist.wsgi --log-file -
