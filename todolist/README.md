@@ -1,4 +1,4 @@
-Maysha Haliza Kirana - NPM 2106751202 - Tugas 4
+Maysha Haliza Kirana - PBP C - NPM 2106751202 - Tugas 4
 Link: https://mayshatugas2.herokuapp.com/todolist/login
 
 1. Apa kegunaan {% csrf_token %} pada elemen <form>? Apa yang terjadi apabila tidak ada potongan kode tersebut pada elemen <form>?
