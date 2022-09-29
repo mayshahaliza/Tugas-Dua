@@ -14,7 +14,7 @@ from re import T
 # Create your views here.
 @login_required(login_url='/todolist/login/')
 def show_todolist(request):
-    data_todolist = Task.objects.all()
+    data_todolist = Task.objects.filter(user = request.user)
     context = {
     'list_data': data_todolist,
     'name': request.user,

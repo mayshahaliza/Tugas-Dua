@@ -7,4 +7,15 @@ Link: https://mayshatugas2.herokuapp.com/todolist/login
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
 Jawab:
-1. {% csrf_token %} berfungsi
+1. {% csrf_token %} diimplementasikan untuk CSRF protection, yaitu untuk melindungi data dari serangan yang ada. Syntax ini akan meng-generate sebuah token dan jika request yang datang tidak mempunyai token ini, request tersebut tidak akan di-execute.
+
+2. 
+
+3. 
+
+4. - Membuat aplikasi baru bernama todolist dengan perintah python manage.py startapp todolist
+   - Menambahkan todolist dalam settings.py di folder project_django
+   - Membuat model Task di models.py di folder todolist sesuai ketentuan (user, title, date, description)
+   - Melakukan migrations dengan perintah python manage.py makemigrations dan python manage.py migrate
+   - Mengimplementasikan fungsi-fungsi yang diperlukan pada views.py di folder todolist
+   - Membuat html todolist, register, login, dan create-task dan mengimplementasikan sesuai ketentuan (untuk todolist.html, memuat tabel task, username pengguna terlogin, dan tombol logout)
