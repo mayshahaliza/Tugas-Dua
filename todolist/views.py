@@ -9,7 +9,6 @@ from django.contrib.auth.decorators import login_required
 import datetime
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-from re import T
 
 # Create your views here.
 @login_required(login_url='/todolist/login/')
