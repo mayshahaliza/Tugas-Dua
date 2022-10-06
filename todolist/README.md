@@ -25,3 +25,32 @@ Jawab:
 REFERENSI
 https://www.educative.io/answers/what-is-a-csrf-token-in-django
 https://docs.djangoproject.com/en/4.1/topics/forms/
+
+Tugas 5
+1. Apa perbedaan dari Inline, Internal, dan External CSS? Apa saja kelebihan dan kekurangan dari masing-masing style?
+2. Jelaskan tag HTML5 yang kamu ketahui.
+3. Jelaskan tipe-tipe CSS selector yang kamu ketahui.
+4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
+Jawab:
+1. Inline: mengandung CSS di dalam section body. Hal ini dispesifikasi dengan tag HTML yang digunakan, yakni atribut style.
+   Internal: CSS terkandung dalam section head HTML (ter-embedded dengan file HTML)
+   External: mengandung file CSS terpisah yang mengandung properti beserta atributnya. CSS disimpan dalam file berbeda dengan HTML menggunakan extension .css dan dihubungkan dengan HTML dengan tag link.
+2. Contoh-contoh dari tag HTML5 adalah:
+   <head> merupakan bagian awal dari dokumen HTML5 yang biasanya berisikan judul.
+   <body> merupakan bagian isi dari dokumen.
+   <button> membuat sebuah button.
+   <link> menghubungkan dokumen dengan dokumen eksternal.
+   <nav> berisi tools untuk navigasi (misal navbar)
+   <audio> menambahkan suara dalam dokumen.
+   <video> menambahkan video dalam dokumen.
+   <time> merepresentasikan waktu dan/atau tanggal.
+   <section> mendefinisikan sebuah section dalam dokumen, misal header dan footer.
+3. Element selector: menggunakan tag pada HTML sebagai selector, yaitu untuk mengubah properti yang ada dalam tag.
+   ID selector: menggunakan ID sebagai selector. ID ditambahkan pada HTMLn kemudian dijadikan selector dalam file CSS.
+   Class selector: class ditambahkan pada tag HTML, kemudian class tersebut ditambahkan dalam CSS sebagai selector.
+4. 
+
+REFERENSI
+https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/
+https://www.tutorialrepublic.com/html-reference/html5-tags.php
