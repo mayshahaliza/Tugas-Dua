@@ -49,7 +49,10 @@ Jawab:
 3. Element selector: menggunakan tag pada HTML sebagai selector, yaitu untuk mengubah properti yang ada dalam tag.
    ID selector: menggunakan ID sebagai selector. ID ditambahkan pada HTMLn kemudian dijadikan selector dalam file CSS.
    Class selector: class ditambahkan pada tag HTML, kemudian class tersebut ditambahkan dalam CSS sebagai selector.
-4. 
+4. Dalam tugas ini, digunakan internal CSS.
+   - Dalam CSS, buat class yang akan digunakan untuk body page HTML. Dalam class, banyak hal yang bisa dikustomisasi, seperti warna dan font teks, ukuran teks, dan lain-lain. Semua class ini disimpan dalam section style yang terdapat dalam section head.
+   - Membuat card: membuat sebuah class card dalam CSS internal yang berisikan setting untuk membuat daftar todolist menjadi card. Dalam class card, dapat dibuat kustomisasi card, misal ukuran dan warna.
+   - menambahkan syntax <meta name="viewport" content="width=device-width, initial-scale=1.0"> untuk membuat page menjadi responsif.
 
 REFERENSI
 https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/
