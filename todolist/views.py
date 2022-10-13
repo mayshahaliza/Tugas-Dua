@@ -1,16 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from todolist.models import Task
-from django.shortcuts import redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
-from django.contrib.auth import authenticate, login
-from django.contrib.auth import logout
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 import datetime
-from django.http import HttpResponseRedirect, JsonResponse
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect, JsonResponse
 from django.urls import reverse
-from django.http import HttpResponse, HttpResponseNotFound
 from django.core import serializers
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 @login_required(login_url='/todolist/login/')
@@ -72,7 +70,8 @@ def show_json(request):
     return HttpResponse(serializers.serialize("json", data_todolist), content_type="application/json")
 
 @login_required(login_url='/todolist/login/')
-def add_task(request):
+@csrf_exempt
+def ajax_task(request):
     if request.method == "POST":
         user = request.user
         title = request.POST.get('title')
